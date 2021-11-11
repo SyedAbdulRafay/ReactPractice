@@ -7,6 +7,8 @@ const Card = (props) => {
 
     const [color, setColor] = useState(false)
 
+    //random comment
+
     const changeColor = () => {
         setColor(true)
     }
