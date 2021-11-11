@@ -1,0 +1,53 @@
+.web-dev-card{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 35px;
+}
+
+@keyframes colorchange {
+    0% {
+        background-color: white;
+        border-color: orange;
+    }
+
+    50% {
+        background-color: green;
+        border-color: orange;
+    }
+
+    100% {
+        background-color: orange;
+        border-color: black;
+    }
+}
+.web-dev-card-alt{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 35px;
+    animation: colorchange 2.5s linear forwards;
+}
+.image{
+    width: 250px;
+    height: 150px;
+}
+.image img{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
